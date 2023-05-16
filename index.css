@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(136, 220, 231); /* cor de fundo inicial */
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    display: flex;
+    margin: 20px;
+
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+    color: black;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
